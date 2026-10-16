@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 20,
-        backgoundColor: '#f5f5f5',
+        backgroundColor: '#f5f5f5',
     },
     appName: {
         fontSize: 24,
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
         marginBotton: 10,
     },
     welcomeMessage: {
+        justifyContent: 'center',
         fontSize: 24,
         color: '#34495E',
         marginBottom: 20,
