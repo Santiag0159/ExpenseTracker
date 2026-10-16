@@ -22,12 +22,10 @@ Expo Go instalado en tu celular (disponible en Google Play Store para Android y 
 Abre tu terminal y clona este repositorio en tu máquina local:
 
 ```
- git clone <URL_DEL_REPOSITORIO> 
+ git clone (https://github.com/Santiag0159/ExpenseTracker.git) 
 
- cd <NOMBRE_DE_LA_CARPETA>
+ cd ExpenseTracker
  ```
-
-
 
 2. Instalar las dependencias
 
