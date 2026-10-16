@@ -19,21 +19,20 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        padding: 20,
-        backgroundColor: '#f5f5f5',
-    },
+        container: {
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: 20,
+            backgroundColor: '#f5f5f5',
+        },
     appName: {
         fontSize: 24,
         fontWeight: 'bold',
         color: '#2C3E50',
-        marginBotton: 10,
+        marginBottom: 10,
     },
     welcomeMessage: {
-        justifyContent: 'center',
+        textAlign: 'center',
         fontSize: 24,
         color: '#34495E',
         marginBottom: 20,
