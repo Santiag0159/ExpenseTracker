@@ -1,7 +1,8 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import TabNavigator from './TabNavigator';
-import ExpenseDetailScreen from '../screens/ExpenseDetailScreen'; 
+import ExpenseDetailScreen from '../screens/ExpenseDetailScreen';
+import ExpenseInfoScreen from '../screens/ExpenseInfoScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,6 +21,11 @@ export default function StackNavigator() {
             title: 'Agregar Gasto',
             presentation: 'modal'
         }} 
+        />
+        <Stack.Screen
+        name="ExpenseDetail"
+        component={ExpenseInfoScreen}
+        options={{ title: 'Detalle del gasto' }}
         />
     </Stack.Navigator>
     );

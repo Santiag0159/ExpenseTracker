@@ -6,7 +6,21 @@ import { ExpensesProvider } from './src/context/ExpensesContext';
 export default function App() {
   return (
     <ExpensesProvider>
-      <NavigationContainer>
+      <NavigationContainer
+        linking={{
+          config: {
+            screens: {
+              MainTabs: {
+                screens: {
+                  Inicio: '',
+                  MisGastos: 'expenses',
+                },
+              },
+              ExpenseDetail: 'expenses/:id',
+            },
+          },
+        }}
+      >
         <StackNavigator />
       </NavigationContainer>
     </ExpensesProvider>

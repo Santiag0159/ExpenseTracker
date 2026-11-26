@@ -19,9 +19,11 @@ export function ExpensesProvider({ children }) {
     setExpenses((prev) => prev.filter((expense) => expense.id !== id));
   };
 
+  const getExpenseById = (id) => expenses.find((expense) => expense.id === id);
+
   return (
     <ExpensesContext.Provider
-      value={{ expenses, isLoaded, addExpense, removeExpense }}
+      value={{ expenses, isLoaded, addExpense, removeExpense, getExpenseById }}
     >
       {children}
     </ExpensesContext.Provider>
