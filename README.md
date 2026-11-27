@@ -96,3 +96,5 @@ equipo.
 * Nunca subas los cambios del directorio node_modules/ ni variables de entorno sensibles (.env).
 
 * Si instalas una nueva librería mediante npm install, comunícale al equipo para que también puedan sincronizar sus dependencias localmente.
+
+* Todos los integrantes del grupo son libres de pedir **ayuda**. 
